@@ -55,8 +55,32 @@ void veiwDetails(Customer C){
 }
 
 int main(){
+    unordered_map<int,Customer>Customer_list;
+    cout<<"Enter: 1 for Create Account"<<endl<<"2 for Withdraw"<<endl<<"3 for Deposit"<<endl<<"4 for Account details"<<endl;
+    int num;
+    cin>>num;
     Customer C1(123456,5000,26900321,21,"Ritam","Male");
+    switch(num){
+        case 1:{
+            Customer C1(123456,5000,26900321,21,"Ritam","Male");
+            break;
+        }
+        case 2:{
+            withdraw(C1);
+            break;
+        }
+        case 3:{
+            deposit(C1);
+            break;
+        }
+        case 4:{
+            veiwDetails(C1);
+            break;
+        }
+
+        default: cout<<"Invalid Input";
+        break;
+    }
     
-    withdraw(C1);
-    veiwDetails(C1);
+    
 }
