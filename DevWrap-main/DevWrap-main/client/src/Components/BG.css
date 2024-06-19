@@ -1,0 +1,138 @@
+.home_bg {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/Home_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* Prevent vertical scrollbar due to fixed background */
+}
+
+.leader {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Assets/leaderboard_soon.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.trackbg {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/Tracks_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.judge {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Assets/Judge_soon.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.JudgeTemp {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/Judge_bg.gif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* Prevent vertical scrollbar due to fixed background */
+}
+
+.template-bg {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/About_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* Prevent vertical scrollbar due to fixed background */
+}
+
+.prize_bg {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/Prize_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about_page {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/About_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.result_bg {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/leaderboard_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 500px;
+}
+
+.contact {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/Contact_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* Prevent vertical scrollbar due to fixed background */
+}
+
+.timeline {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/Timeline_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 200px;
+  /* Prevent vertical scrollbar due to fixed background */
+}
+
+.rulepage {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/Timeline_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+
+  /* Set the height to 100% of the viewport height */
+  /* Prevent vertical scrollbar due to fixed background */
+}
+
+.projects_bg {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Bgs/Projects_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  /* Set the height to 100% of the viewport height */
+  /* Prevent vertical scrollbar due to fixed background */
+}

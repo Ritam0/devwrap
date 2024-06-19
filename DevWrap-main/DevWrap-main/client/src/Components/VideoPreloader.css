@@ -1,0 +1,34 @@
+/* VideoPreloader.css */
+.video-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Set background color as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    z-index: 9999; /* Set a higher z-index value */
+  }
+  
+  .video-preloader.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .video-preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  /* Style the video element */
+  #videoElement {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
